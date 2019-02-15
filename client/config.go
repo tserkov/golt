@@ -1,4 +1,4 @@
-package golt
+package client
 
 import (
 	"crypto/tls"

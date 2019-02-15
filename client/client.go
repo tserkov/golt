@@ -1,9 +1,13 @@
-package golt
+package client
+
+import (
+	"github.com/tserkov/golt/transport"
+)
 
 type Client struct {
 	cfg *Config
 
-	conn Conn
+	conn transport.Conn
 }
 
 func New(cfg *Config) (*Client, error) {
