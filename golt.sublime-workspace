@@ -1,0 +1,883 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"дейсту",
+				"Дейстующие"
+			],
+			[
+				"Resposne",
+				"ResponseWriter"
+			],
+			[
+				"Resp",
+				"ResponseWriter"
+			],
+			[
+				"wrap",
+				"word-wrap\tproperty"
+			],
+			[
+				"Err",
+				"ErrMissingServiceType"
+			],
+			[
+				"Error",
+				"ErrorHandler"
+			],
+			[
+				"lin",
+				"linear-gradient()"
+			],
+			[
+				"Def",
+				"DefaultShutdownTimeout"
+			],
+			[
+				"Shu",
+				"DefaultShutdownTimeout"
+			],
+			[
+				"border",
+				"borderDistance"
+			],
+			[
+				"Rever",
+				"ReverseProxyConfig"
+			],
+			[
+				"jobH",
+				"jobHandlerError"
+			],
+			[
+				"jusi",
+				"justify-content"
+			],
+			[
+				"req",
+				"requestID"
+			],
+			[
+				"Giveawy",
+				"GiveawayPublic"
+			],
+			[
+				"user",
+				"authUser"
+			],
+			[
+				"Reques",
+				"RequestCtx"
+			],
+			[
+				"De",
+				"DecodeDocFunc"
+			],
+			[
+				"Inser",
+				"InsertedIDs"
+			],
+			[
+				"resolver",
+				"resolvers"
+			],
+			[
+				"prize",
+				"prizeID"
+			],
+			[
+				"Give",
+				"GiveawayDisplay"
+			],
+			[
+				"tw",
+				"twitchLoginURL"
+			],
+			[
+				"TW",
+				"TWITCH_REDIRECT"
+			],
+			[
+				"TWITC",
+				"TWITCH_ID"
+			],
+			[
+				"pr",
+				"prizesCollection"
+			],
+			[
+				"Givea",
+				"GiveawayMessages"
+			],
+			[
+				"Prize",
+				"PrizeResolver"
+			],
+			[
+				"Status",
+				"StatusBadRequest"
+			],
+			[
+				"Giev",
+				"GiveawayMultipliers"
+			],
+			[
+				"Prizes",
+				"PrizesQueryArgs"
+			],
+			[
+				"requir",
+				"requiresIGN"
+			],
+			[
+				"has-tex",
+				"has-text-grey"
+			],
+			[
+				"HTTPE",
+				"HTTPErrorHandler"
+			],
+			[
+				"ref",
+				"refresh_token"
+			],
+			[
+				"acc",
+				"access_token"
+			],
+			[
+				"heli",
+				"helixAccessToken"
+			],
+			[
+				"Redi",
+				"TwitchRedirect"
+			],
+			[
+				"Client",
+				"TwitchClientID"
+			],
+			[
+				"red",
+				"redirectURL"
+			],
+			[
+				"Twit",
+				"TwitchRedirect"
+			],
+			[
+				"space",
+				"space-between"
+			],
+			[
+				"can",
+				"canonicalUrl"
+			],
+			[
+				"view",
+				"viewEngine"
+			],
+			[
+				"background-",
+				"background-blend-mode"
+			],
+			[
+				"flex-",
+				"flex-direction"
+			],
+			[
+				"c",
+				"color-burn"
+			],
+			[
+				"upd",
+				"policyUpdates"
+			],
+			[
+				"mino",
+				"infoMinors"
+			],
+			[
+				"Lookup",
+				"LookupResponse"
+			],
+			[
+				"halfW",
+				"halfWidthWithPadding"
+			],
+			[
+				"default",
+				"defaultOptions"
+			],
+			[
+				"last",
+				"last-of-type"
+			],
+			[
+				"border-bott",
+				"border-bottom-right-radius"
+			],
+			[
+				"border-radiu",
+				"border-top-right-radius"
+			],
+			[
+				"stream",
+				"streamStatusColor"
+			],
+			[
+				"inter",
+				"interstitialSection"
+			],
+			[
+				"Scroll",
+				"ScrollReveal"
+			],
+			[
+				"karma-",
+				"karma-sourcemap-loader"
+			],
+			[
+				"karma",
+				"karma-phantomjs-shim"
+			],
+			[
+				"Sc",
+				"SceneCreateObject"
+			],
+			[
+				"Pos",
+				"PositionOptions"
+			],
+			[
+				"Rg",
+				"RgbaColor"
+			],
+			[
+				"level",
+				"leveledBackendOut"
+			],
+			[
+				"jw",
+				"ginJwt"
+			],
+			[
+				"bea",
+				"bearerTokenString"
+			],
+			[
+				"S",
+				"StatusBadRequest"
+			],
+			[
+				"filter",
+				"filterByTitle"
+			],
+			[
+				"loadedE",
+				"loadedExtensionsPath"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"install\t",
+				"Package Control: Install Package"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"remove p",
+				"Package Control: Remove Package"
+			],
+			[
+				"list p",
+				"Package Control: List Packages"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remote",
+				"Remote: Host Session"
+			],
+			[
+				"u",
+				"npm: Remove/Uninstall Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"disabl",
+				"Package Control: Disable Package"
+			],
+			[
+				"sassb",
+				"SassBeautify"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"unin",
+				"npm: Remove/Uninstall Package"
+			],
+			[
+				"color",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"npm: run",
+				"npm: Run Script"
+			]
+		],
+		"width": 476.0
+	},
+	"console":
+	{
+		"height": 347.0,
+		"history":
+		[
+			"help",
+			"cls",
+			"clear",
+			"cls",
+			"clear",
+			"git"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/G/src/github.com/tserkov/golt"
+	],
+	"file_history":
+	[
+		"/S/chatwtf/streamer-dashboard/src/i18n/ru.json",
+		"/S/chatwtf/streamer-dashboard/src/styles/layout.scss",
+		"/G/src/git.avionx.io/chatwtf/web/ui/pages/giveaways.vue",
+		"/S/chatwtf/streamer-dashboard/src/i18n/index.js",
+		"/S/chatwtf/streamer-dashboard/src/views/Giveaways.vue",
+		"/S/chatwtf/streamer-dashboard/src/styles/button.scss",
+		"/S/chatwtf/streamer-dashboard/src/components/AppHeader.vue",
+		"/S/chatwtf/streamer-dashboard/src/i18n/es.json",
+		"/S/chatwtf/streamer-dashboard/src/components/DropdownMenu.vue",
+		"/S/chatwtf/streamer-dashboard/src/styles/section.scss",
+		"/S/chatwtf/streamer-dashboard/src/styles/table.scss",
+		"/S/chatwtf/streamer-dashboard/src/styles/variables.scss",
+		"/S/chatwtf/streamer-dashboard/src/styles/base.scss",
+		"/S/chatwtf/streamer-dashboard/src/styles/app.scss",
+		"/S/chatwtf/streamer-dashboard/src/styles/flags.scss",
+		"/S/chatwtf/streamer-dashboard/src/i18n/en.json",
+		"/S/chatwtf/streamer-dashboard/src/main.js",
+		"/G/src/github.com/tserkov/chat.wtf/web/ui/pages/dashboard.vue",
+		"/G/src/github.com/tserkov/chat.wtf/web/ui/pages/giveaways.vue",
+		"/S/chatwtf/streamer-dashboard/src/App.vue",
+		"/S/chatwtf/streamer-dashboard/src/store/preferences/index.js",
+		"/S/chatwtf/streamer-dashboard/src/store/index.js",
+		"/S/chatwtf/streamer-dashboard/src/store/user/index.js",
+		"/G/src/github.com/thestalkingwolf/chat.wtf/cmd/web-api/main.go",
+		"/G/src/github.com/thestalkingwolf/chat.wtf/cmd/web-api/app/app.go",
+		"/G/src/github.com/thestalkingwolf/chat.wtf/pkg/web/router/router.go",
+		"/G/src/github.com/thestalkingwolf/chat.wtf/pkg/web/router/response.go",
+		"/G/src/github.com/thestalkingwolf/chat.wtf/pkg/web/router/route.go",
+		"/G/src/github.com/thestalkingwolf/chat.wtf/pkg/web/server/server.go",
+		"/S/chatwtf/streamer-dashboard/src/components/Countdown.vue",
+		"/S/chatwtf/streamer-dashboard/src/views/Dashboard.vue",
+		"/S/chatwtf/streamer-dashboard/src/components/dashboard/Giveaways.vue",
+		"/S/chatwtf/streamer-dashboard/src/components/dashboard/DiscordBot.vue",
+		"/G/src/github.com/thestalkingwolf/chat.wtf/pkg/web/router/responseWriter.go",
+		"/G/src/github.com/thestalkingwolf/chat.wtf/pkg/web/server/config.go",
+		"/G/src/github.com/thestalkingwolf/chat.wtf/cmd/web-api/routes/routes.go",
+		"/S/chatwtf/streamer-dashboard/src/styles/status.scss",
+		"/S/chatwtf/streamer-dashboard/src/components/dashboard/Polls.vue",
+		"/S/chatwtf/streamer-dashboard/src/styles/statistic.scss",
+		"/S/chatwtf/streamer-dashboard/src/components/dashboard/Profile.vue",
+		"/S/chatwtf/streamer-dashboard/src/components/dashboard/TwitchBot.vue",
+		"/S/chatwtf/streamer-dashboard/src/views/Login.vue",
+		"/S/chatwtf/streamer-dashboard/src/components/dashboard/Web.vue",
+		"/S/chatwtf/streamer-dashboard/src/store/alerts/index.js",
+		"/S/chatwtf/streamer-dashboard/src/styles/utils.scss",
+		"/S/chatwtf/streamer-dashboard/package.json",
+		"/S/chatwtf/streamer-dashboard/vue.config.js",
+		"/S/chatwtf/streamer-dashboard/src/styles/animations.scss",
+		"/S/chatwtf/streamer-dashboard/src/styles/grid.scss",
+		"/S/chatwtf/streamer-dashboard/src/styles/reset.scss",
+		"/S/chatwtf/streamer-dashboard/src/styles/avatar.scss",
+		"/S/chatwtf/streamer-dashboard/src/styles/alert.scss",
+		"/G/src/github.com/tserkov/go-interface-benchmark/with_test.go",
+		"/G/src/github.com/tserkov/go-interface-benchmark/without_test.go",
+		"/G/src/github.com/tserkov/go-interface-benchmark/README.md",
+		"/G/src/github.com/thestalkingwolf/chat.wtf/pkg/dispatcher/simple_dispatcher.go",
+		"/G/src/github.com/thestalkingwolf/chat.wtf/pkg/dispatcher/simple_dispatcher_test.go",
+		"/G/src/github.com/thestalkingwolf/chat.wtf/pkg/dispatcher/complex_dispatcher_test.go",
+		"/G/src/github.com/thestalkingwolf/chat.wtf/pkg/conductor/conductor.go",
+		"/G/src/github.com/thestalkingwolf/chat.wtf/pkg/dispatcher/router_test.go",
+		"/C/Users/james/Desktop/CHANGELOG.md",
+		"/S/chatwtf/streamer-dashboard/styles/dashboard.css",
+		"/S/chatwtf/streamer-dashboard/index.html",
+		"/S/chatwtf/streamer-dashboard/fonts/icomoon/icomoon-free.css",
+		"/S/chatwtf/streamer-dashboard/fonts/icomoon/stylesheet.css",
+		"/S/chatwtf/streamer-dashboard/fonts/icomoon/Font/selection.json",
+		"/S/chatwtf/streamer-dashboard/fonts/icomoon/IcoMoon-Free.json",
+		"/S/chatwtf/streamer-dashboard/fonts/icomoon/README.md",
+		"/G/src/github.com/tserkov/go-interface-benchmark/type.go",
+		"/G/src/github.com/thestalkingwolf/chat.wtf/pkg/conductor/config_test.go",
+		"/G/src/github.com/thestalkingwolf/chat.wtf/pkg/dispatcher/config.go",
+		"/G/src/github.com/thestalkingwolf/chat.wtf/pkg/mq/config.go",
+		"/G/src/github.com/thestalkingwolf/chat.wtf/pkg/conductor/config.go",
+		"/G/src/github.com/thestalkingwolf/chat.wtf/pkg/conductor/conductor_test.go",
+		"/G/src/github.com/thestalkingwolf/chat.wtf/pkg/dispatcher/simpledispatcher.go",
+		"/G/src/github.com/thestalkingwolf/chat.wtf/pkg/mq/rabbitmq.go",
+		"/G/src/github.com/thestalkingwolf/chat.wtf/pkg/mq/mq.go",
+		"/G/src/github.com/thestalkingwolf/chat.wtf/pkg/dispatcher/complexdispatcher.go",
+		"/G/src/github.com/thestalkingwolf/chat.wtf/pkg/dispatcher/correlationid.go",
+		"/G/src/github.com/thestalkingwolf/chat.wtf/pkg/conductor/errors.go",
+		"/G/src/github.com/thestalkingwolf/chat.wtf/pkg/cli/cli.go",
+		"/G/src/github.com/tserkov/go-interface-benchmark/LICENSE.md",
+		"/G/src/github.com/tserkov/go-interface-benchmark/interface.go",
+		"/G/src/github.com/tserkov/go-interfaces/without_test.go",
+		"/G/src/github.com/tserkov/go-interfaces/with_test.go",
+		"/G/src/github.com/tserkov/go-interfaces/type.go",
+		"/G/src/github.com/tserkov/go-interfaces/interface.go",
+		"/G/src/github.com/tserkov/go-interfaces/with.go",
+		"/G/src/github.com/tserkov/go-interfaces/without.go",
+		"/G/src/github.com/tserkov/go-interfaces/without/without.go",
+		"/U/tests/main.go",
+		"/G/src/github.com/thestalkingwolf/chat.wtf/web/api/pkg/server/routes/routes.go",
+		"/G/src/github.com/thestalkingwolf/chat.wtf/web/api/pkg/server/routes/auth.go",
+		"/G/src/github.com/thestalkingwolf/chat.wtf/pkg/twitch/twitch.go",
+		"/G/src/github.com/thestalkingwolf/chat.wtf/web/api/pkg/twitch/twitch.go",
+		"/G/src/github.com/thestalkingwolf/chat.wtf/pkg/web/jwt/jwt.go",
+		"/G/src/github.com/tserkov/chat.wtf/web/api/pkg/server/routes/auth.go",
+		"/G/src/github.com/tserkov/chat.wtf/web/api/pkg/server/middleware.go",
+		"/G/src/github.com/tserkov/chat.wtf/web/api/pkg/server/jwt/jwt.go",
+		"/G/src/github.com/tserkov/chat.wtf/web/api/pkg/server/routes/routes.go",
+		"/G/src/github.com/tserkov/chat.wtf/pkg/service/service.go",
+		"/G/src/github.com/thestalkingwolf/chat.wtf/pkg/web/api/handlers.go",
+		"/G/src/github.com/thestalkingwolf/chat.wtf/pkg/web/api/api.go",
+		"/S/chatwtf/mc/styles/dashboard.css",
+		"/S/chatwtf/mc/index.html",
+		"/S/chatwtf/mc/login.html",
+		"/G/src/github.com/thestalkingwolf/chat.wtf/pkg/web/router/config.go",
+		"/G/src/github.com/thestalkingwolf/chat.wtf/web/api/pkg/server/server.go",
+		"/G/src/github.com/thestalkingwolf/chat.wtf/pkg/webserver/config.go",
+		"/G/src/github.com/thestalkingwolf/chat.wtf/pkg/webserver/router/router.go",
+		"/G/src/github.com/thestalkingwolf/chat.wtf/pkg/webserver/webserver.go",
+		"/G/src/github.com/thestalkingwolf/chat.wtf/cmd/web-proxy/main.go",
+		"/G/src/github.com/thestalkingwolf/chat.wtf/pkg/proxy/proxy.go",
+		"/G/src/github.com/thestalkingwolf/chat.wtf/pkg/service/service.go",
+		"/G/src/github.com/thestalkingwolf/chat.wtf/pkg/service/config.go",
+		"/U/wtf-proxy-config.json",
+		"/G/src/github.com/thestalkingwolf/chat.wtf/pkg/proxy/config.go",
+		"/G/src/github.com/thestalkingwolf/chat.wtf/cmd/web-proxy/Makefile",
+		"/G/src/github.com/tserkov/jandj-pwa/src/styles/rsvp.scss",
+		"/G/src/github.com/tserkov/jandj-pwa/src/styles/variables.scss",
+		"/G/src/github.com/tserkov/jandj-pwa/src/styles/app.scss",
+		"/G/src/github.com/tserkov/jandj-pwa/src/components/AppMenu.vue",
+		"/G/src/github.com/tserkov/jandj-pwa/src/components/Checkbox.vue",
+		"/G/src/github.com/tserkov/jandj-pwa/src/views/RSVP.vue",
+		"/G/src/github.com/tserkov/jandj-pwa/src/views/Home.vue",
+		"/G/src/github.com/tserkov/jandj-pwa/src/App.vue",
+		"/G/src/github.com/tserkov/jandj-pwa/src/main.js",
+		"/G/src/github.com/tserkov/jandj-pwa/src/assets/loader.svg"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			"G:\\src\\github.com\\thestalkingwolf\\chat.wtf\\pkg"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"\"",
+			"{",
+			" ",
+			"chevr",
+			"router",
+			"w",
+			"ctx",
+			"status-icon",
+			";\n",
+			"aside-bg",
+			"2b323b",
+			"aside-width",
+			"BenchmarkWithoutPtrFunc",
+			"Publish",
+			"PostShutdown",
+			"cond",
+			"conductor",
+			"condu",
+			"conductor",
+			"cfg",
+			"RandSrc",
+			"time",
+			"fmt",
+			"CheckErr",
+			"CheckDirExists",
+			"LoadFromFile",
+			"flagL",
+			"ConductorError",
+			",",
+			"ctx",
+			"#eee",
+			"#111316",
+			"#212326",
+			"\\[type=\"checkbox\"\\]",
+			"\\.tgl",
+			"\\.tgl-btn",
+			"Msg",
+			"isw",
+			"isWriteable",
+			"click",
+			"var\\(--d\\)",
+			"var(--d)",
+			"config",
+			"  ",
+			"borderColor",
+			"burg",
+			"\\$",
+			"HomeHandler",
+			"listener",
+			"context",
+			"tls",
+			"RandSrc",
+			"\\*ServiceConfig",
+			"figure",
+			" class=\"[A-z_ -]+\"",
+			" class=\"[A-z_ ]+\"",
+			" />$",
+			" class=\"[A-z_ ]+\"",
+			" class=\"[A-z_]+\"",
+			"SharedJobs",
+			"wait",
+			"Start",
+			"WorkerChannelPool",
+			"Worker",
+			"JobHandler",
+			"Dispatcher",
+			"datastore.Datastore",
+			"cfg",
+			"Config",
+			"context",
+			"Insert",
+			"Datastore",
+			"mongo\\.",
+			"fmt",
+			"bsontype",
+			"pipeline",
+			"create",
+			"ErrNotFound",
+			"ErrorNeedsOwner",
+			"ErrorNeedsPrizes",
+			"ErrorNeedsName",
+			"ErrorNeedsAudience",
+			"ErrorInvalidID",
+			"\\\\t",
+			"\\\\n",
+			"fmt",
+			"look",
+			"    ",
+			"log",
+			"DecodeDocFunc",
+			"\\\\t",
+			"\\\\n",
+			"log",
+			"fmt",
+			"jwt",
+			"secure",
+			"headerOrigin",
+			"headerVary",
+			"contentTypeJSON",
+			"graphqlHandler",
+			"ctx",
+			"t =",
+			"usersCollection",
+			"giveawaysCollection",
+			"prizesCollection",
+			"primitive.M",
+			"map",
+			"defaultStatus",
+			"conn",
+			"([A-z]+)Error",
+			"ds",
+			"user",
+			"twitch",
+			"jwt",
+			"time",
+			"authCollection",
+			"usersC",
+			"resolveUserByID",
+			"([A-z]+)Error",
+			"ds",
+			"([A-z]+)Error",
+			"resolvePrizeByID",
+			"resolvePrizesByGiveaway",
+			"giveaway",
+			"Timestamp",
+			"models",
+			"model",
+			"u "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\"",
+			"{",
+			" ",
+			"status",
+			"darker-bg-color",
+			"aside-size",
+			"Config",
+			",\\n\\t",
+			"var(--textColor)",
+			"var(--pageBackground)",
+			"var(--borderColor)",
+			"",
+			"\\.toggle > input[type=\"checkbox\"]",
+			"\\.toggle > label",
+			"$d",
+			"\\t",
+			"@",
+			"*Config",
+			"",
+			">",
+			"",
+			"SimpleDispatcher",
+			"*datastore.Datastore",
+			"a",
+			"Auth",
+			"Mongo",
+			"mgo.",
+			"ErrNeedsOwner",
+			"ErrNeedsPrizes",
+			"ErrNeedsName",
+			"ErrNeedsAudience",
+			"ErrInvalidID",
+			"\\t",
+			"\\n",
+			"\\t",
+			"\\n",
+			"collectionName",
+			"initialStatus",
+			"client",
+			"Error$1",
+			"r.ds",
+			"Error$1",
+			"prize",
+			"giveaway",
+			"user",
+			"prize.",
+			"all",
+			"ownerID",
+			"",
+			"TWITCH_ID",
+			"user",
+			"User",
+			"GiveawayResolver",
+			"models",
+			"RootResolver",
+			"prize",
+			"Prize",
+			"unclaimed",
+			"list",
+			"deliveredBy",
+			"deliveredAt",
+			"claimedBy",
+			"claimedAt",
+			"wonAt",
+			"productKeys",
+			"requiresIGN",
+			"$1div",
+			" "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 70.0
+	},
+	"input":
+	{
+		"height": 65.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.GoGuru Output":
+	{
+		"height": 132.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.gofmt":
+	{
+		"height": 0.0
+	},
+	"output.gotools_syntax_errors":
+	{
+		"height": 115.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "golt.sublime-project",
+	"replace":
+	{
+		"height": 114.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 228.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
