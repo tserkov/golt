@@ -8,7 +8,7 @@ package types
 // }
 func UnboundRelationship(relIdentity Integer, T String, properties Map) Structure {
 	return Structure{
-		Fields: []Any{
+		Fields: []Value{
 			relIdentity,
 			T,
 			properties,

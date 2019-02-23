@@ -6,6 +6,6 @@ import (
 
 type Buffer = bytes.Buffer
 
-type Any interface {
+type Value interface {
 	Encode(*Buffer) error
 }

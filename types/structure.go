@@ -14,7 +14,7 @@ import (
 // as the number of fields, not the total packed byte size.
 type Structure struct {
 	Signature byte
-	Fields    []Any
+	Fields    []Value
 }
 
 func (s Structure) Encode(buf *Buffer) error {
@@ -42,7 +42,7 @@ func (s Structure) Encode(buf *Buffer) error {
 	return nil
 }
 
-func (s *Structure) Serialize(w io.Writer) error {
+func (s Structure) Serialize(w io.Writer) error {
 	var buf bytes.Buffer
 	if err := s.Encode(&buf); err != nil {
 		return err

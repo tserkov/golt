@@ -12,7 +12,7 @@ import (
 // Though if duplicate keys are sent, this is a violation of the bolt protocol and an error will occur.
 // In Go, the order of the map is not guaranteed.
 
-type Map map[String]Any
+type Map map[String]Value
 
 func (m Map) Encode(buf *Buffer) error {
 	l := len(m)

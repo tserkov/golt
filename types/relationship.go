@@ -12,7 +12,7 @@ package types
 // }
 func Relationship(relIdentity, startNodeIdentity, endNodeIdentity Integer, T String, properties Map) Structure {
 	return Structure{
-		Fields: []Any{
+		Fields: []Value{
 			relIdentity,
 			startNodeIdentity,
 			endNodeIdentity,

@@ -10,7 +10,7 @@ package types
 // }
 func Path(nodes, relationships, sequence List) Structure {
 	return Structure{
-		Fields: []Any{
+		Fields: []Value{
 			nodes,
 			relationships,
 			sequence,

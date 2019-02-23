@@ -9,7 +9,7 @@ package types
 // }
 func Node(nodeIdentity Integer, labels List, properties Map) Structure {
 	return Structure{
-		Fields: []Any{
+		Fields: []Value{
 			nodeIdentity,
 			labels,
 			properties,

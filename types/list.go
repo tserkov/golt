@@ -9,7 +9,7 @@ import (
 // https://boltprotocol.org/v1/#lists
 // Lists are heterogeneous sequences of values and permit a mixture of types within the same list.
 // The size of a list denotes the number of items within that list, not the total packed byte size.
-type List []Any
+type List []Value
 
 func (l List) Encode(buf *Buffer) error {
 	length := len(l)
