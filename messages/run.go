@@ -10,7 +10,7 @@ import (
 // See https://boltprotocol.org/v1/#message-run
 func Run(statement types.String, parameters types.Map) types.Structure {
 	return types.Structure{
-		Fields: []types.Any{
+		Fields: []types.Value{
 			statement,
 			parameters,
 		},

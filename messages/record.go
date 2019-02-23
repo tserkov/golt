@@ -10,7 +10,7 @@ import (
 // See https://boltprotocol.org/v1/#message-record
 func Record(fields types.List) types.Structure {
 	return types.Structure{
-		Fields: []types.Any{
+		Fields: []types.Value{
 			fields,
 		},
 		Signature: SignatureRecord,

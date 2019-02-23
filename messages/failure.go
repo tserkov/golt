@@ -10,7 +10,7 @@ import (
 // See https://boltprotocol.org/v1/#message-failure
 func Failure(metadata types.Map) types.Structure {
 	return types.Structure{
-		Fields: []types.Any{
+		Fields: []types.Value{
 			metadata,
 		},
 		Signature: SignatureFailure,

@@ -11,7 +11,7 @@ import (
 // See https://boltprotocol.org/v1/#message-success
 func Success(metadata types.Map) types.Structure {
 	return types.Structure{
-		Fields: []types.Any{
+		Fields: []types.Value{
 			metadata,
 		},
 		Signature: SignatureSuccess,

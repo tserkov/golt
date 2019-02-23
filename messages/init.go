@@ -11,7 +11,7 @@ import (
 //
 // See https://boltprotocol.org/v1/#message-init
 func Init(clientName, username, password types.String) types.Structure {
-	fields := make([]types.Any, 2)
+	fields := make([]types.Value, 2)
 
 	fields[0] = clientName
 
