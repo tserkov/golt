@@ -1,9 +1,8 @@
 package transport
 
 import (
-	"bytes"
 	"crypto/tls"
-	"errors"
+	"encoding/binary"
 	"net"
 	"time"
 
@@ -11,80 +10,67 @@ import (
 )
 
 var (
-	preamble = []byte{0x60, 0x60, 0xb0, 0x17}
+	Preamble = []byte{0x60, 0x60, 0xb0, 0x17}
 
-	noSupportedVersions = []byte{0x00, 0x00, 0x00, 0x00}
-	supportedVersions   = []byte{
-		0x00, 0x00, 0x00, 0x01, // v1
-		0x00, 0x00, 0x00, 0x00, // none
-		0x00, 0x00, 0x00, 0x00, // none
-		0x00, 0x00, 0x00, 0x00, // none
-	}
-
-	handshake = append(preamble, supportedVersions...)
+	Version1    = []byte{0x00, 0x00, 0x00, 0x01}
+	VersionNone = []byte{0x00, 0x00, 0x00, 0x00}
 )
 
 type Conn struct {
-	conn          net.Conn
-	serverVersion []byte
-	tlsConfig     *tls.Config
-	uri           string
+	net.Conn
+
+	ClientName string
+
+	tlsConfig *tls.Config
 }
 
-func (c *Conn) Connect(uri string, tlsConfig *tls.Config, timeout time.Duration) error {
-	url, err := NewURL(uri)
-	if err != nil {
-		return err
-	}
-
+func (c *Conn) Open(addr string, tlsConfig *tls.Config, timeout time.Duration) error {
 	dialer := net.Dialer{
 		Timeout: timeout,
 	}
 
+	var err error
 	if tlsConfig != nil {
-		c.conn, err = tls.DialWithDialer(&dialer, "tcp", url.Address, tlsConfig)
+		c.Conn, err = tls.DialWithDialer(&dialer, "tcp", addr, tlsConfig)
 	} else {
-		c.conn, err = dialer.Dial("tcp", url.Address)
+		c.Conn, err = dialer.Dial("tcp", addr)
 	}
 	if err != nil {
 		return err
 	}
 
-	if err = c.handshake(); err != nil {
-		return err
-	}
-
-	if err = c.init(); err != nil {
-		return err
-	}
-
 	return nil
 }
 
-// handshake performs the secret bolt club handshake (magic preamble + four supported versions).
-func (c *Conn) handshake() error {
-	if _, err := c.conn.Write(handshake); err != nil {
-		return err
+func (c *Conn) Next() (*messages.Message, error) {
+	lenBuf := make([]byte, 2)
+	if n, err := c.Read(lenBuf); err != nil || n != 2 {
+		// Read error
+		c.Close()
+		return nil, err
 	}
 
-	if bytesRead, err := c.conn.Read(c.serverVersion); err != nil {
-		return err
-	} else if bytesRead != 4 {
-		return errors.New("Server did not respond with a valid version")
-	} else if bytes.Equal(c.serverVersion, noSupportedVersions) {
-		return errors.New("Server uses an unsupported version")
+	realLen := binary.BigEndian.Uint16(lenBuf)
+
+	data := make([]byte, realLen)
+	if n, err := c.Read(data); err != nil || uint16(n) != realLen {
+		// Read error
+		c.Close()
+		return nil, err
 	}
 
-	return nil
+	return messages.Unserialize(data)
 }
 
-func (c *Conn) init() error {
-	// TODO(tserkov): provide creds
-	msg := messages.Init("golt/1.0", "", "")
-
-	if err := msg.Serialize(c.conn); err != nil {
-		return err
+func (c *Conn) Expect(sig byte) (*messages.Message, bool, error) {
+	msg, err := c.Next()
+	if err != nil {
+		return nil, false, err
 	}
 
-	return nil
+	if msg.Signature != sig {
+		return nil, false, nil
+	}
+
+	return msg, true, nil
 }

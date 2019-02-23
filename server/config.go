@@ -1,4 +1,4 @@
-package client
+package server
 
 import (
 	"crypto/tls"
@@ -13,9 +13,7 @@ var (
 type Config struct {
 	Addr              string
 	ConnectionTimeout time.Duration
-	Password          string
 	TLSConfig         *tls.Config
-	Username          string
 }
 
 func (c *Config) Validate() error {
@@ -24,11 +22,7 @@ func (c *Config) Validate() error {
 	}
 
 	if c.Addr == "" {
-		return errors.New("Missing server address:port")
-	}
-
-	if c.Username == "" && c.Password != "" {
-		return errors.New("Username must be set when a password is set")
+		return errors.New("Missing listening address:port")
 	}
 
 	return nil
