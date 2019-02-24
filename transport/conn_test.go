@@ -3,14 +3,11 @@ package transport
 import (
 	"net"
 	"os"
-	"sync"
 	"testing"
 	"time"
 )
 
 var testServerAddr net.Addr
-var connectionCount uint8
-var mu sync.RWMutex
 
 func TestMain(m *testing.M) {
 	s := Listener{}
@@ -18,10 +15,6 @@ func TestMain(m *testing.M) {
 	ch := make(chan error, 1)
 	go func() {
 		ch <- s.Accept("127.0.0.1:0", nil, func(c Conn) {
-			mu.Lock()
-			connectionCount += 1
-			mu.Unlock()
-
 			c.Write([]byte{
 				0x00, // len
 				0x02, // len
@@ -48,13 +41,7 @@ func TestConnect(t *testing.T) {
 	if err := c.Open(testServerAddr.String(), nil, 2*time.Second); err != nil {
 		t.Fatal(err)
 	}
-	defer c.Close()
-
-	mu.RLock()
-	defer mu.RUnlock()
-	if connectionCount == 0 {
-		t.Fatal("no connection registered")
-	}
+	c.Close()
 }
 
 func TestNext(t *testing.T) {
